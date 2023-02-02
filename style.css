@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none
+}
+.ballbtn {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+}
+.ballbtn img {
+  width: 100%;
+}
+
+.box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: white;
+}
+
+body {
+  height: 90vh;
+  width: 100vw;
+  padding: 30px;
+  border: 1px black solid;
+  background-image: linear-gradient(rgba(1,1,1,0.3), rgba(0,0,0,0.3)), url("../World.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
