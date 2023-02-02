@@ -22,5 +22,5 @@ function move() {
     ball.style.top = dodgetop+"px";
     ball.style.bottom = dodgebottom+"px";
 
-  }, 1000);
+  }, 500);
   };
